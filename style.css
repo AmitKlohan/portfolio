@@ -39,3 +39,16 @@ header {
 .normal-button {
   border: none;
 }
+
+.head-section {
+  display: flex;
+  flex-direction: column;
+  background-image: url("header_shapes.png");
+  background-color: #fff;
+  background-repeat: no-repeat;
+  height: 80vh;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 0 2rem;
+  border-bottom-left-radius: 8rem;
+}
