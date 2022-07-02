@@ -80,3 +80,12 @@ header {
   font-size: 1.6rem;
   color: #7f8cff;
 }
+
+.social-list {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.social-list li {
+  list-style: none;
+}
