@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background: #e5e5e5;
+}
+
+main {
+  max-width: 37.5rem;
+  margin: 0 auto;
+  background-color: whitesmoke;
+}
