@@ -310,3 +310,23 @@ header {
   gap: 1.2rem;
   margin-top: 4rem;
 }
+
+.btn {
+  margin: 1rem 0;
+  background: #fff;
+}
+
+.btn:hover {
+  color: #fff;
+  background: #6070ff;
+}
+
+.btn:active {
+  color: #fff;
+  background: #2230d2;
+}
+
+.btn:disabled {
+  color: #5e6c84;
+  background: #e5e5e5;
+}
