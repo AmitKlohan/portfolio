@@ -13,9 +13,25 @@ body {
 }
 
 main {
-  max-width: 37.5rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 39.5rem;
   margin: 0 auto;
   background-color: whitesmoke;
+  gap: 11.4rem;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 8.8rem;
+  margin-right: 2.4rem;
+  margin-left: 2.4rem;
 }
 
 header {
@@ -23,7 +39,7 @@ header {
   align-items: center;
   justify-content: space-between;
   background: #fff;
-  padding: 2rem;
+  padding: 2.4rem;
 }
 
 .logo-placeholder {
@@ -46,11 +62,11 @@ header {
   background-image: url("header_shapes.png");
   background-color: #fff;
   background-repeat: no-repeat;
-  height: 80vh;
   justify-content: center;
   gap: 1.5rem;
-  padding: 0 2rem;
-  border-bottom-left-radius: 8rem;
+  padding: 2.4rem;
+  padding-bottom: 13.6rem;
+  border-bottom-left-radius: 7rem;
 }
 
 .main-heading {
@@ -59,26 +75,17 @@ header {
   font-weight: 700;
   font-size: 4rem;
   line-height: 5.2rem;
-  display: flex;
-  align-items: center;
   color: #172b4d;
+  margin-top: 7.4rem;
 }
 
-.header-para {
+.primary-text {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 2.4rem;
   color: #344563;
-}
-
-.lets-connect {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.6rem;
-  color: #7f8cff;
 }
 
 .social-list {
