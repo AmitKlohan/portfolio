@@ -175,3 +175,65 @@ header {
   border-radius: 0.8rem;
   background: #fff;
 }
+
+.btn-getMyResume {
+  width: 16.5rm;
+  height: 4.8rem;
+  padding: 1.2rem;
+  border: 1px solid #6070ff;
+  border-radius: 0.8rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.7rem;
+  line-height: 2.4rem;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  background: #fff;
+}
+
+.about-mySelf {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 0 2.4rem;
+  border-radius: top;
+  gap: 1.2rem;
+}
+
+.about-mySelf-ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-content: center;
+  gap: 1.2rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+
+.about-mySelf-ul li {
+  display: flex;
+  align-items: center;
+  height: 6.7rem;
+  background: #f7f7f9;
+  border-radius: 0.8rem;
+  gap: 1.6rem;
+}
+
+.about-mySelf-ul li > * {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #253858;
+  padding-left: 1.2rem;
+}
+
+.about-myself-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+  padding-left: 1.2rem;
+  padding-right: 4rem;
+}
