@@ -30,8 +30,7 @@ main {
   display: grid;
   grid-template-columns: auto;
   gap: 8.8rem;
-  margin-right: 2.4rem;
-  margin-left: 2.4rem;
+  margin: 0 2.4rem;
 }
 
 header {
@@ -197,7 +196,7 @@ header {
   flex-direction: column;
   background: #fff;
   padding: 0 2.4rem;
-  border-radius: top;
+  border-top-right-radius: 7rem;
   gap: 1.2rem;
 }
 
