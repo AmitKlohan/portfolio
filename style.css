@@ -96,3 +96,11 @@ header {
 .social-list li {
   list-style: none;
 }
+.project1-h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4.4rem;
+  color: #172b4d;
+}
