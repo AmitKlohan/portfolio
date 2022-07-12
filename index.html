@@ -241,12 +241,16 @@
           with it
         </p>
         <div class="contact-me-sub-container">
-          <input type="text" placeholder="Yeremias" />
-          <input type="text" placeholder="natajayanj14@gmail.com" />
-          <textarea name="comment" id="comment">
-Write your message here</textarea
-          >
-          <button type="button" class="btn btn-getMyResume" disabled>
+          <input type="text" placeholder="Yeremias" required maxlength="30" />
+          <input type="email" placeholder="natajayanj14@gmail.com" required />
+          <textarea
+            name="comment"
+            id="comment"
+            placeholder="Write your message here"
+            maxlength="500"
+            required
+          ></textarea>
+          <button type="submit" class="btn btn-getMyResume">
             Get In Touch
           </button>
           <img src="shape.png" alt="" class="bottom-line" />
