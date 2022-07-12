@@ -106,7 +106,7 @@ header {
 }
 
 .card-li {
-  display: flex;
+  /* display: flex; */
   list-style: none;
   justify-content: space-between;
   margin-right: 10.8rem;
@@ -114,6 +114,7 @@ header {
 }
 
 .card-li li {
+  float: left;
   padding: 0.4rem 1.2rem;
   background: #ebebff;
   border-radius: 0.8rem;
@@ -172,7 +173,6 @@ header {
   color: #396df2;
   border: 1px solid #6070ff;
   border-radius: 0.8rem;
-  background: #fff;
 }
 
 .btn-getMyResume {
