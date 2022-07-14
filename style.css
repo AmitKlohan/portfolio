@@ -383,4 +383,41 @@ header {
     line-height: 20px;
     color: #344563;
   }
+
+  .card {
+    flex-direction: row;
+    padding: 2.4rem;
+    margin: 0 1.4rem;
+  }
+
+  .card > * {
+    flex: 1;
+  }
+
+  .card-div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+  }
+
+  .card4 {
+    flex-direction: row-reverse;
+    order: 3;
+  }
+
+  .card3 {
+    order: 2;
+  }
+
+  .card1 {
+    order: 4;
+  }
+
+  .card2 {
+    order: 5;
+  }
+
+  .card2 {
+    flex-direction: row-reverse;
+  }
 }
