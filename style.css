@@ -437,4 +437,27 @@ header {
     gap: 5rem;
     order: 6;
   }
+
+  .about-myself-first-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 45%;
+  }
+
+  .about-myself-second-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 55%;
+  }
+
+  .about-mySelf-div {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about-mySelf h1 {
+    margin-top: 0;
+  }
 }
