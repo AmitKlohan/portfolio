@@ -420,4 +420,21 @@ header {
   .card2 {
     flex-direction: row-reverse;
   }
+
+  .card3-img-2 {
+    display: initial;
+  }
+
+  .card3-img-1 {
+    display: none;
+  }
+
+  .about-mySelf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16.6rem 14.4rem;
+    gap: 5rem;
+    order: 6;
+  }
 }
