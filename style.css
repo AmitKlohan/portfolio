@@ -376,7 +376,6 @@ header {
   .nav-ul li a {
     list-style: none;
     text-decoration: none;
-    font-size: 20px;
     padding: 1rem;
     font-weight: 500;
     font-size: 15px;
@@ -415,9 +414,6 @@ header {
 
   .card2 {
     order: 5;
-  }
-
-  .card2 {
     flex-direction: row-reverse;
   }
 
