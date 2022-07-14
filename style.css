@@ -361,6 +361,26 @@ header {
   }
 
   .normal-button {
-    visibility: hidden;
+    display: none;
+  }
+
+  .nav-ul {
+    display: flex;
+    gap: 3.2rem;
+  }
+
+  .nav-ul li {
+    display: flex;
+  }
+
+  .nav-ul li a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 1rem;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
   }
 }
