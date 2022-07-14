@@ -61,6 +61,7 @@ header {
 .logo-img {
   height: 100%;
   width: 100%;
+  max-width: 8rem;
 }
 
 .normal-button {
@@ -246,6 +247,7 @@ header {
   display: flex;
   align-items: center;
   gap: 1.2rem;
+  padding-left: 1rem;
 }
 
 .web-skills span {
@@ -304,6 +306,8 @@ header {
   font-size: 1.5rem;
   line-height: 2.4rem;
   color: #b3bac5;
+  padding-left: 1.6rem;
+  padding-top: 1.6rem;
 }
 
 .contact-me-sub-container {
@@ -453,12 +457,18 @@ header {
     flex-direction: row;
   }
 
+  .about-myself-div span {
+    padding-left: 1rem;
+    color: #344563;
+  }
+
   .about-mySelf h1 {
     margin-top: 0;
   }
 
   .contact-me {
     order: 7;
+    margin-top: 0%;
   }
 
   form {
