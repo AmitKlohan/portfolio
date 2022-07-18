@@ -7,6 +7,10 @@
 - HTML - 5
 - CSS - 3
 
+# Live Demo
+
+https://amitklohan.github.io/portfolio/
+
 ## Author
 
 👤 Amit Kumar
